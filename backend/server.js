@@ -12,7 +12,7 @@ const db = mysql.createConnection({
     database: 'schedule'
 });
 
-db.connect(err => {
+db.connect(err => {de
     if (err) throw err;
     console.log('Connected to MySQL');
 });
